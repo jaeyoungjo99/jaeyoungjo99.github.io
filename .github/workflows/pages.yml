@@ -3,6 +3,7 @@ name: Build and Deploy Jekyll Site
 on:
   push:
     branches:
+      - master
       - main
   workflow_dispatch:
 
@@ -31,9 +32,9 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Install Jekyll Scholar
+      - name: Install dependencies
         run: |
-          gem install jekyll-scholar
+          bundle install
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

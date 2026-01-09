@@ -41,7 +41,10 @@ I am a research engineer specializing in autonomous driving and robotics. This b
 ## Publications
 You can find my research activities on Google Scholar:  
 [Google Scholar Profile](https://scholar.google.com/citations?user=JXe4josAAAAJ&hl=ko&oi=ao)
+
+{% if site.plugins contains 'jekyll-scholar' %}
 {% bibliography %}
+{% endif %}
 
 ## Contact
 - GitHub: [jaeyoungjo99](https://github.com/jaeyoungjo99)
