@@ -5,7 +5,6 @@ permalink: /blog/
 author_profile: true
 ---
 
-<!-- {% include base_path %} -->
 
 <h3 class="archive__subtitle">공부와 개발 기록</h3>
 
