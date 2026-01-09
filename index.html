@@ -2,3 +2,12 @@
 layout: home
 author_profile: true
 ---
+
+{% assign about_page = site.pages | where: "permalink", "/about/" | first %}
+{% if about_page %}
+<div class="about-section">
+  <div class="about-content">
+    {{ about_page.content | markdownify }}
+  </div>
+</div>
+{% endif %}

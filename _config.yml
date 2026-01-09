@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Jaeyoung Jo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "개발 공부와 프로젝트를 공유하는 공간입니다."
+  avatar           : "/assets/images/profile.jpg"  # 프로필 사진 경로 (profile.jpg 또는 profile.png로 저장)
+  bio              : "Research engineer specializing in autonomous driving and robotics."
   location         : "Seoul, South Korea"
   email            :
   links:
@@ -166,6 +166,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _bibliography
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -265,6 +266,27 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-scholar
+
+# Jekyll Scholar
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
 
 # mimic GitHub Pages with --safe
 whitelist:

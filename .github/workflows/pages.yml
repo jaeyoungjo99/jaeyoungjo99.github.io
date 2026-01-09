@@ -31,6 +31,10 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
+      - name: Install Jekyll Scholar
+        run: |
+          gem install jekyll-scholar
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
