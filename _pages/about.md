@@ -13,25 +13,22 @@ Hello! I'm Jaeyoung Jo.
 
 I am a research engineer specializing in autonomous driving and robotics. This blog shares my research experiences and technical insights.
 
+
+## Experience
+- **Research Engineer**, 42dot · Season (Sep 2025 - Present)
+  - Location: Pangyo, South Korea
+  
+- **SLAM Research Engineer**, Hyundai Motor Company (Jan 2025 - Present)
+  - Location: Pangyo, South Korea
+  
+- **Graduate Research Student**, Konkuk University (Aug 2021 - Dec 2024)
+  - Automotive Intelligence Lab, Department of Smart Vehicle Engineering
+  - Location: Seoul, South Korea
+
 ## Education
 - **M.S. in Smart Vehicle Engineering**, Konkuk University (Mar 2023 - Feb 2025)
   - GPA: 4.37/4.5
 - **B.S. in Smart Vehicle Engineering**, Konkuk University (Mar 2017 - Feb 2023)
-
-## Experience
-- **Research Engineer**, 42dot · Season (Sep 2024 - Present)
-  - Location: Pangyo, South Korea · Hybrid work
-  - Skills: ROS, C++
-  
-- **SLAM Research Engineer**, Hyundai Motor Company (Jan 2024 - Present)
-  - Location: Pangyo, South Korea · On-site work
-  - Skills: C++, Vehicle State Estimation
-  
-- **Graduate Research Student**, Konkuk University (Aug 2021 - Dec 2024)
-  - Automotive Intelligence Lab, Department of Smart Vehicle Engineering
-  - Location: Seoul, South Korea · On-site work
-  - Skills: C++
-
 ## Research Interests
 - Autonomous Driving
 - SLAM (Simultaneous Localization and Mapping)
@@ -42,9 +39,7 @@ I am a research engineer specializing in autonomous driving and robotics. This b
 You can find my research activities on Google Scholar:  
 [Google Scholar Profile](https://scholar.google.com/citations?user=JXe4josAAAAJ&hl=ko&oi=ao)
 
-{% if site.plugins contains 'jekyll-scholar' %}
-{% bibliography %}
-{% endif %}
+<!-- Bibliography will be displayed when using GitHub Actions build -->
 
 ## Contact
 - GitHub: [jaeyoungjo99](https://github.com/jaeyoungjo99)
